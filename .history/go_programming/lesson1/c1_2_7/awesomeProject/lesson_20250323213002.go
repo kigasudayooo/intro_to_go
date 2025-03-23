@@ -3,14 +3,10 @@ package main
 import "fmt"
 
 var (
-	i   int     = 1
-	f64 float64 = 1.2
-	//s    string  = "test"
-	t, f bool = true, false
-)
-
-const (
-	s string = "test"
+	i    int     = 1
+	f64  float64 = 1.2
+	s    string  = "test"
+	t, f bool    = true, false
 )
 
 func foo() {
